@@ -1,0 +1,16 @@
+*.gz
+*.npz
+*.pyc
+*~
+.DS_Store
+.idea
+.spyproject/
+build/
+dist
+docs/_build
+tensorlayer.egg-info
+tensorlayer/__pacache__
+
+.vscode/*
+data/*
+samples/*
