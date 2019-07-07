@@ -7,10 +7,10 @@ tl.logging.set_verbosity(tl.logging.DEBUG)
 
 class FLAGS(object):
     def __init__(self):
-        self.n_epoch = 1000 # "Epoch to train [25]"
+        self.n_epoch = 10000 # "Epoch to train [100]"
         self.z_dim = 100 # "Num of noise value]"
         self.learning_rate = 0.0002 # "Learning rate of for adam [0.0002]")
-        self.beta1 = 0.5 # "Momentum term of adam [0.5]")
+        self.beta1 = 0.8 # "Momentum term of adam [0.5]")
         self.batch_size = 64 # "The number of batch images [64]")
         self.output_size = 64 # "The size of the output images to produce [64]")
         self.sample_size = 64 # "The number of sample images [64]")
